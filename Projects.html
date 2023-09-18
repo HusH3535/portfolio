@@ -1,56 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer></script>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
+
 </head>
-<body>
+
+<body class="h-100">
 
 
 
-    <!-- NAVEGATION BAR -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Angel Pena</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="AboutMe.html">About Me</a>
-        </li>
-      </ul>
+  <!-- NAVEGATION BAR -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Angel Pena</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutMe.html">About Me</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- PAGE MAIN CONTENT -->
-<div>
+  <!-- PAGE MAIN CONTENT -->
+  <div class="h-100">
 
-</div>
+    <div class="container text-center h-100">
+      <div class="row align-items-center h-100">
+        <div class="col">
 
-<!-- FOOTER -->
+          <div class="accordion" id="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Etch-a-Sketch
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion">
 
-<footer class="bg-light text-center text-lg-start fixed-bottom">
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Angel Pena:
-      <a class="text-dark text-decoration-none" href="https://github.com/HusH3535">github.com/HusH3535</a>
+
+                <div class="accordion-body">
+                  <div class="container-fluid">
+                    <div class="row">
+
+                      <div class="col-3">
+                        <img src="assets/etch-web.png" class="w-100" alt="">
+                      </div>
+                      <div class="col-9">
+                        This is a simple project that uses raw html, css and javascript to recreate the popular toy
+                        Etch-a-Sketch, <span class="text-info
+                    ">but with more colors!</span>
+                        <br>
+
+                        <p class="text-end fw-light m-0 mt-2">Find the github repository for this project <a
+                            href="https://github.com/HusH3535/etch-a-sketch" target="_blank"
+                            class="link-info text-decoration-none">here!</a> </p>
+                        <p class="text-end fw-light m-0">Find the page hosted on github pages <a
+                            href="https://hush3535.github.io/etch-a-sketch/" target="_blank"
+                            class="link-info text-decoration-none">here!</a> </p>
+
+                      </div>
+
+                    </div>
+
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
     </div>
-    <!-- Copyright -->
-  </footer>
-    
+
+    <!-- FOOTER -->
+
+    <footer class="bg-light text-center text-lg-start fixed-bottom">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Angel Pena:
+        <a class="text-dark text-decoration-none" href="https://github.com/HusH3535">github.com/HusH3535</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
 </body>
+
 </html>
